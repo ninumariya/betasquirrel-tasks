@@ -11,7 +11,7 @@ https://github.com/ninumariya/betasquirrel-tasks
 | Requirements | Output |
 | ------------ | ------ |
 
-| ![Task 1](images/requirement/task-1-requirements.jpg) | ![Task 1](images\output\task-1-output.png)]
+| ![Task 1](images/requirement/task-1-requirements.jpg) | ![Task 1](images/output/task-1-output.png) |
 
 ## W3Schools learning tasks
 
