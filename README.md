@@ -4,7 +4,7 @@ Assignments from betasquirrel
 
 website link
 
-https://nivedh-ninumariya.io/betasquirrel-ninumariya-tasks/
+https://github.com/ninumariya/betasquirrel-tasks
 
 ## W3Schools learning tasks
 
