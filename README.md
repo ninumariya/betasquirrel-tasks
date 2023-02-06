@@ -8,21 +8,21 @@ https://nivedh-ninumariya.io/betasquirrel-ninumariya-tasks/
 
 ## W3Schools learning tasks
 
-1. Attributes : https://www.w3schools.com/html/html_attributes.asp
-2. Heading : https://www.w3schools.com/html/html_headings.asp
-3. Paragraph :https://www.w3schools.com/html/html_paragraphs.asp
-4. Styles : https://www.w3schools.com/html/html_styles.asp
-5. Formatting :https://www.w3schools.com/html/html_formatting.asp
-6. Quatation : https://www.w3schools.com/html/html_quotation_elements.asp
-7. Comments : https://www.w3schools.com/html/html_comments.asp
-8. Colors : https://www.w3schools.com/html/html_colors.asp
-9. Css : https://www.w3schools.com/html/html_css.asp
-10. Links : https://www.w3schools.com/html/html_links.asp
-11. Images : https://www.w3schools.com/html/html_images.asp
-12. Classes : https://www.w3schools.com/html/html_classes.asp
-13. Id : https://www.w3schools.com/html/html_id.asp
-14. Favicon : https://www.w3schools.com/html/html_favicon.asp
-15. Tables : https://www.w3schools.com/html/html_tables.asp
+1. [Attributes](https://www.w3schools.com/html/html_attributes.asp)
+2. [Heading](https://www.w3schools.com/html/html_headings.asp)
+3. [Paragraph](https://www.w3schools.com/html/html_paragraphs.asp)
+4. [Styles](https://www.w3schools.com/html/html_styles.asp)
+5. [Formatting](https://www.w3schools.com/html/html_formatting.asp)
+6. [Quatation](https://www.w3schools.com/html/html_quotation_elements.asp)
+7. [Comments](https://www.w3schools.com/html/html_comments.asp)
+8. [Colors](https://www.w3schools.com/html/html_colors.asp)
+9. [Css](https://www.w3schools.com/html/html_css.asp)
+10. [Links](https://www.w3schools.com/html/html_links.asp)
+11. [Images](https://www.w3schools.com/html/html_images.asp)
+12. [Classes](https://www.w3schools.com/html/html_classes.asp)
+13. [Id](https://www.w3schools.com/html/html_id.asp)
+14. [Favicon](https://www.w3schools.com/html/html_favicon.asp)
+15. [Tables](https://www.w3schools.com/html/html_tables.asp)
 
 ## Linux commands
 
