@@ -2,12 +2,14 @@ body {
     background-color: black;
     margin: 0 auto;
   }
+  /* Navbar */
   #navbar {
     background-color: purple;
     position: relative;
     height: 80px;
     margin-bottom: 15px;
   }
+  /* Main Container */
   #main-container {
     background-color: #D1D8ED;
     height: 200px;
