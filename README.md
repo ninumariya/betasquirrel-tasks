@@ -50,5 +50,6 @@ https://github.com/ninumariya/betasquirrel-tasks
 
 ## Completed tasks
 
-- task-1 completed
-- task-2 completed
+- Task-1 completed
+- Task-2 completed
+- Task-3 completed
