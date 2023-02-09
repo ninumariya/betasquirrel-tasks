@@ -1,7 +1,7 @@
 body {
   height: 100vh;
 }
-.main__container {
+.main_container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -25,10 +25,8 @@ body {
   align-items: center;
 }
 .link a {
-  padding: 15px;
-  margin: 20px;
   text-decoration: none;
   color: rgb(13, 51, 167);
-  font-size: x-large;
-  transition: 0.5s;
+  padding: 15px;
+  margin: 20px;
 }
