@@ -6,9 +6,7 @@ https://github.com/ninumariya/betasquirrel-tasks
 
 Assignments from betasquirrel
 
-Website for betasquirrel tasks
-
-https://ninumariya.github.io/betasquirrel-tasks/
+- [Demo](https://ninumariya.github.io/betasquirrel-tasks/)
 
 ## Requirements and output
 
