@@ -40,6 +40,9 @@ Assignments from betasquirrel
 - `ls` - List contents of a directory, Ex: `ls -a` lists hidden files as well.
 - `pwd` - Display current working directory path
 - `cat` - Display contents of a file Ex: `cat README.md`
+- `rm` - To remove a file. Ex:`rm file_name`
+- `clear` -To clear the screen. Ex: `clear`
+- `mkdir` - To make a directory. EX:`mkdir directory_name`
 
 ## Git commands
 
