@@ -71,7 +71,7 @@
 - `rm` - To remove a file. Ex:`rm file_name`
 - `clear` -To clear the screen. Ex: `clear`
 - `mkdir` - To make a directory. EX:`mkdir directory_name`
-- `ssh-keygen` - To generate ssh key. Ex: `ssh-keygen -t ed25519 -C "email_connect_to_github"'
+- `ssh-keygen` - To generate ssh key. Ex: `ssh-keygen -t ed25519 -C "email_connect_to_github"`
 
 ### Git commands
 
