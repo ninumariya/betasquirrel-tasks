@@ -1,10 +1,10 @@
 body {
-  background-color: #333;
+  background-color: #2f1c16;
   margin: 0 auto;
 }
 /* Navbar */
 #navbar {
-  background-color: rgb(107, 5, 99);
+  background-color: #533261;
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@ body {
 }
 /* Main  Container */
 #main-container {
-  background-color: rgb(172, 165, 171);
+  background-color: #d2d9e9;
   height: 250px;
   margin: 15px;
   display: flex;
@@ -21,21 +21,20 @@ body {
   justify-content: space-between;
 }
 .boxes {
-  background-color: rgb(19, 207, 135);
+  background-color: #82e17d;
   width: calc((100% / 3) - 20px);
   padding: 15px;
 }
 .third {
-  background-color: rgb(191, 197, 193);
+  background-color: #dadada;
   height: 200px;
   margin: 15px;
-  border: 10px solid rgb(211, 28, 22);
-  padding: 15px;
+  border: 10px solid #b84240;
 }
 .innerdiv {
-  background-color: rgb(191, 197, 193);
+  background-color: #dadada;
   height: 100%;
-  border: 2px solid rgb(12, 155, 67);
+  border: 2px solid #369b25;
 }
 .m-r {
   margin-right: 5px;
