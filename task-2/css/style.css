@@ -6,10 +6,9 @@ body {
 #navbar {
   background-color: rgb(107, 5, 99);
   height: 80px;
-  margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
 }
 /* Main  Container */
 #main-container {
@@ -17,59 +16,75 @@ body {
   height: 250px;
   margin: 15px;
   display: flex;
-  overflow: hidden;
+  padding: 15px;
+  overflow: auto;
   justify-content: space-between;
 }
 .boxes {
   background-color: rgb(19, 207, 135);
-  height: 200px;
   width: calc((100% / 3) - 20px);
-  float: left;
-  margin: 15px;
+  padding: 15px;
 }
 .third {
   background-color: rgb(191, 197, 193);
   height: 200px;
   margin: 15px;
   border: 10px solid rgb(211, 28, 22);
+  padding: 15px;
 }
 .innerdiv {
   background-color: rgb(191, 197, 193);
-  height: 197px;
+  height: 100%;
   border: 2px solid rgb(12, 155, 67);
 }
 .m-r {
-  margin-right: 15px;
+  margin-right: 5px;
   padding: 10px;
   text-align: justify;
   align-self: center;
-  overflow: hidden;
+  overflow: auto;
 }
 .left {
+  width: 300px;
   float: left;
   display: flex;
-  align-self: center;
-  text-decoration: none;
+  justify-content: flex-start;
+  padding: 15px;
 }
 .right {
+  width: 250px;
   float: right;
-  display: flex;
-  align-self: center;
-  text-decoration: none;
 }
 .right a {
-  padding: 10px;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
 }
 .left img {
-  width: 40px;
   height: 60px;
-  margin-right: 10px;
+  margin-right: 15px;
 }
 .left h2 {
-  display: inline;
+  display: inline block;
   color: #fff;
 }
 .right a {
   color: #fff;
   text-decoration: none;
+}
+@media only screen and (max-width: 750px) {
+  .right a {
+    display: none;
+  }
+  #main-container {
+    width: calc((100%) - 60px);
+    flex-direction: column;
+    height: auto;
+  }
+  .m-r,
+  .m-l {
+    width: calc((100%) - 60px);
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
 }
