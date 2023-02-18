@@ -86,9 +86,9 @@
 6. `git pull` :- Fetch from and integrate with another repository or a local branch
 7. `git config --list` :- To see the config added
 8. `git reset` :- Reset current HEAD to the specified state
-   8.a. `git reset --hard` :- Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded. Any untracked files or directories in the way of writing any tracked files are simply deleted.
-   8.b. `git reset --soft` :- Does not touch the index file or the working tree at all (but resets the head to <commit>, just like all modes do). This leaves all your changed files "Changes to be committed", as git status would put it.
-   8.c. `git reset --mixed` :- Resets the index but not the working tree (i.e., the changed files are preserved but not marked for commit) and reports what has not been updated. This is the default action.
+   - `git reset --hard` :- Resets the index and working tree. Any changes to tracked files in the working tree since <commit> are discarded. Any untracked files or directories in the way of writing any tracked files are simply deleted.
+   - `git reset --soft` :- Does not touch the index file or the working tree at all (but resets the head to <commit>, just like all modes do). This leaves all your changed files "Changes to be committed", as git status would put it.
+   - `git reset --mixed` :- Resets the index but not the working tree (i.e., the changed files are preserved but not marked for commit) and reports what has not been updated. This is the default action.
 9. `git status` :- Show the working tree status
 10. `git diff` :- Show changes between commits, commit and working tree, etc
 11. `git log` :- Show commit logs
