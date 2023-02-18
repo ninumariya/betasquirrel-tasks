@@ -7,6 +7,7 @@ body {
   background-color: #533261;
   height: 80px;
   display: flex;
+  width: 100vw;
   justify-content: space-between;
   align-items: center;
 }
@@ -37,6 +38,7 @@ body {
   background-color: #d1d8ed;
   height: 200px;
   margin-bottom: 15px;
+  width: 99vw;
   padding: 10px;
   overflow: auto;
 }
@@ -46,7 +48,7 @@ body {
 .boxes {
   background-color: #d1d8ed;
   height: 250px;
-  width: 31%;
+  width: calc((100vw) / 3 - 30px);
   float: left;
   padding: 10px;
   overflow: auto;
@@ -57,17 +59,39 @@ body {
 .m-l {
   margin-left: 0px;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 650px) {
   .right a {
     display: none;
+  }
+  #main-container {
+    width: 94vw;
   }
   .boxes {
     text-align: justify;
     align-self: center;
-    width: 100%;
+    width: 95%;
     margin-bottom: 15px;
   }
   #sub-container {
     height: auto;
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 651px) {
+  .right a {
+    display: none;
+  }
+  #main-container {
+    width: 97vw;
+  }
+  .first {
+    width: 97%;
+    margin-bottom: 15px;
+  }
+  .second,
+  .third {
+    width: calc((100vw - 58px) / 2);
+  }
+  .third {
+    margin-left: 0;
   }
 }

@@ -61,6 +61,7 @@
 39. [Block & Inline](https://www.w3schools.com/html/html_blocks.asp)
 40. [Classes](https://www.w3schools.com/html/html_classes.asp)
 41. [Id](https://www.w3schools.com/html/html_id.asp)
+42. [CSS Forms](https://www.w3schools.com/css/css_form.asp)
 
 ### Linux commands
 
