@@ -1,6 +1,7 @@
 body {
   background-color: whitesmoke;
   margin: 0 auto;
+  font-family: sans-serif;
 }
 #navbar {
   background-color: whitesmoke;
@@ -66,7 +67,7 @@ body {
 .branch {
   float: left;
   margin-left: 0px;
-  margin-right: 60px;
+  margin-right: 100px;
 }
 .one,
 .two,
@@ -74,8 +75,11 @@ body {
 .four,
 .five,
 .six {
-  padding: 15px;
-  margin: 15px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.red-text {
+  color: red;
 }
 form {
   margin: 15px;
