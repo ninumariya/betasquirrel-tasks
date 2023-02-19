@@ -119,4 +119,7 @@ form {
   #container {
     width: calc(100vw - 160px);
   }
+  textarea {
+    width: calc(100vw - 180px);
+  }
 }
