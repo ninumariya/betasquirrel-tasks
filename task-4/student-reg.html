@@ -7,6 +7,7 @@
     <title>task-4</title>
     <link rel="stylesheet" href="css/student-reg.css" />
   </head>
+
   <body>
     <!-- Navigation bar -->
     <div id="navbar">
@@ -38,10 +39,11 @@
               >
               <div class="place-holder">
                 <input
-                  type="tel"
+                  type="text"
                   id="f-name"
                   name="first-name"
-                  placeholder="Enter your first name"
+                  pattern="[A-Za-z]"
+                  placeholder=" Enter your first name"
                 />
               </div>
             </div>
@@ -51,10 +53,11 @@
               >
               <div class="place-holder">
                 <input
-                  type="tel"
+                  type="text "
                   id="l-name"
                   name="last-name"
-                  placeholder="Enter your last name"
+                  pattern="[A-Za-z]"
+                  placeholder=" Enter your last name"
                 />
               </div>
             </div>
@@ -66,7 +69,7 @@
               >
               <div class="place-holder">
                 <input
-                  type="number"
+                  type="tel"
                   id="mobileno"
                   name="mobile"
                   pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
@@ -75,9 +78,7 @@
               </div>
             </div>
             <div class="email">
-              <label for="last-name"
-                >Email <span class="red-text">*</span>:</label
-              >
+              <label for="email">Email <span class="red-text">*</span>:</label>
               <div class="place-holder">
                 <input
                   type="email"
@@ -90,7 +91,7 @@
           </div>
           <div class="three">
             <div class="branch">
-              <label for="first-name"
+              <label for="branch"
                 >Branch <span class="red-text">*</span>:</label
               >
               <div class="place-holder">
@@ -159,7 +160,13 @@
               >Permanent Address <span class="red-text">*</span>:</label
             >
             <div class="textarea">
-              <textarea id="p_address" name="address" rows="5" cols="60">
+              <textarea
+                placeholder="Enter your full Address"
+                id="p_address"
+                name="address"
+                rows="5"
+                cols="60"
+              >
               </textarea>
             </div>
           </div>
