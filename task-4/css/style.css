@@ -60,40 +60,25 @@ body {
 #container {
   padding: 10px;
   float: left;
-  width: calc(100vw - 200px);
 }
-#student-data {
-  background-color: whitesmoke;
-  height: 70px;
+.header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  padding-top: 35px;
 }
-#table-data > h3 {
-  color: black;
-  margin: 0;
+span {
   text-decoration: underline;
 }
-.box {
-  width: 170px;
-  height: 35px;
-  padding: 10px;
-  background-color: rgb(19, 228, 200);
-}
-#link {
-  display: flex;
-  justify-content: center;
-}
-#link a {
-  align-content: center;
+.add-student {
   text-decoration: none;
-  color: white;
-  font-size: x-large;
-  transition: 0.5s;
+  background-color: rgb(59, 185, 137);
+  padding: 5px;
+  color: #fff;
 }
-a:hover {
-  color: black;
-  transition: 0.3s;
+#student-table {
+  overflow: auto;
 }
 table,
 td,
@@ -107,6 +92,21 @@ table {
   width: 100%;
   margin-top: 10px;
 }
-form {
-  margin: 15px;
+@media screen and (max-width: 500px) {
+  #sidebar {
+    width: 26%;
+  }
+  #sidebar nav {
+    padding: 0%;
+    margin-top: 5px;
+  }
+  #container {
+    width: calc(100vw - 160px);
+  }
+  table {
+    width: 70%;
+  }
+  .header {
+    padding: 0%;
+  }
 }
