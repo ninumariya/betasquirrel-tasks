@@ -81,6 +81,15 @@ body {
 .red-text {
   color: red;
 }
+.six {
+  float: right;
+  justify-content: space-between;
+}
+button {
+  border-radius: 50px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
 form {
   margin: 15px;
 }
