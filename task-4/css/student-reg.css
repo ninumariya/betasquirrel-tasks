@@ -59,7 +59,24 @@ body {
 #container {
   float: left;
   padding: 15px;
+  justify-content: space-between;
+}
+.first-name,
+.mobile,
+.branch {
+  float: left;
+  margin-left: 0px;
+  margin-right: 60px;
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  padding: 15px;
+  margin: 15px;
 }
 form {
-  margin: 10px;
+  margin: 15px;
 }
