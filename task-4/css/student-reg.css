@@ -1,131 +1,238 @@
 body {
-  background-color: whitesmoke;
-  margin: 0 auto;
+  margin: 0%;
+  width: 100%;
   font-family: sans-serif;
 }
-#navbar {
-  background-color: whitesmoke;
-  height: 100px;
+nav {
+  width: 100%;
+  height: 75px;
+  background-color: white;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid rgb(173, 169, 169);
 }
-#logo-container {
-  width: 200px;
-  float: left;
+#logo-container,
+#profile-container {
   display: flex;
-  justify-content: flex-start;
-  padding: 15px;
-  margin-left: 20px;
+  align-items: center;
+  padding: 0 26px;
 }
 #logo-container img {
-  height: 60px;
-  margin-right: 10px;
-}
-#logo-container h2 {
-  display: inline-block;
-  color: black;
-}
-#profile-container {
-  width: auto;
-  float: right;
-  margin-right: 20px;
+  height: 50px;
 }
 #profile-container img {
-  height: 60px;
+  height: 50px;
+  float: right;
   border-radius: 50%;
 }
-.main {
-  height: calc(100vh - 81px);
+h2 {
+  padding-left: 5px;
 }
-#sidebar {
-  background-color: whitesmoke;
-  height: 100%;
-  width: 150px;
-  float: left;
-  border-right: 1px solid black;
+.student-data {
+  text-decoration: underline;
 }
-#sidebar nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 30px 30px 30px 30px;
-}
-#sidebar nav a {
-  color: black;
-  text-decoration: none;
-  padding: 5px;
-}
+/* navbar-bar section over*/
 #container {
-  float: left;
-  padding: 15px;
-  justify-content: space-between;
+  height: 100vh;
+  width: 100%;
+  display: flex;
 }
-.first-name,
-.mobile,
-.branch {
-  float: left;
-  margin-left: 0px;
-  margin-right: 100px;
+ul {
+  list-style-type: none;
+  padding-left: 8px;
+}
+#side-container {
+  width: 10%;
+  height: 100vh;
+  border-right: 2px solid rgb(173, 169, 169);
+  padding: 10px;
+  display: flex;
+}
+li {
+  padding: 10px 0;
+}
+h4,
+th {
+  color: rgb(87, 87, 87);
+}
+h4 {
+  font-weight: 100;
+}
+/* side-bar section over */
+
+#main-container {
+  padding-left: 50px;
+  padding-top: 30px;
+  width: 75%;
 }
 .one,
 .two,
-.three,
-.four,
-.five,
-.six {
-  padding: 5px;
-  margin-bottom: 5px;
-}
-.red-text {
-  color: red;
-}
-.six {
-  float: right;
+.three {
+  display: flex;
   justify-content: space-between;
 }
-input,
-select,
-textarea {
-  margin-top: 5px;
+.hostelstatus {
+  width: 27.4vw;
 }
-#f-name,
-#l-name,
-#mobileno#,
-#emailid,
-#branches,
-#p_address {
-  width: 175px;
+.radio-button {
+  display: flex;
+}
+red-text {
+  color: red;
+}
+.first-name,
+.last-name,
+.mobile,
+.email,
+.branch {
+  margin-bottom: 10px;
+}
+input[type="text"] {
+  width: 27.4vw;
+  height: 40px;
+}
+input[type="tel"] {
+  width: 27.4vw;
+  height: 40px;
+}
+input[type="email"] {
+  width: 27.4vw;
+  height: 40px;
+}
+.two,
+.three {
+  margin-top: 20px;
+}
+.one {
+  margin-top: 35px;
+}
+select {
+  width: 27.4vw;
+  height: 40px;
+  color: #2b2626;
+}
+.four,
+.five {
+  margin-top: 25px;
+}
+.six {
+  margin-left: 70%;
+  margin-top: 2%;
 }
 button {
-  border-radius: 50px;
-  padding: 10px 40px;
-  cursor: pointer;
-  border: none;
-  color: blanchedalmond;
+  height: 35px;
+  width: 130px;
+  border-radius: 20px;
+  border: 0px;
+  font-weight: 300;
+  text-decoration: none;
 }
-form {
-  margin: 15px;
+.clear {
+  background-color: rgb(238, 138, 127);
+  margin-right: 20px;
+  color: white;
 }
-@media screen and (max-width: 500px) {
-  #sidebar {
+.save {
+  background-color: rgb(97, 212, 168);
+  color: white;
+}
+.checkbox {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1500px) {
+  .six {
+    margin-left: 60%;
+    text-align: end;
+  }
+}
+@media screen and (max-width: 576px) {
+  .six {
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  #main-container {
+    width: 100%;
+    padding-left: 0;
+  }
+  #side-container {
     display: none;
+  }
+  .one,
+  .two,
+  .three {
+    padding: 0 20px;
+    display: block;
+  }
+  .first-name {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    width: 98%;
+    height: 40px;
+  }
+  .last-name {
+    width: 100%;
+  }
+  .mobile {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  input[type="tel"] {
+    width: 98%;
+    height: 40px;
+  }
+  .email {
+    width: 100%;
+  }
+  input[type="email"] {
+    width: 98%;
+    height: 40px;
+  }
+  .fbranch {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  select {
+    width: 100%;
+    height: 40px;
+  }
+  .four,
+  .five,
+  .six {
+    padding: 0 25px;
+  }
+  textarea {
+    width: 90%;
+  }
+  .checkbox {
+    flex-direction: column;
+  }
+  #form {
+    padding-left: 20px;
+  }
+  input,
+  select,
+  textarea {
+    border-radius: 0;
+    border: 1px solid rgb(173, 169, 169);
+  }
+  #logo-container,
+  #profile-container {
+    padding: 0 3px;
+  }
+  .hostelstatus {
+    width: auto;
   }
   #logo-container {
     width: 80%;
   }
-  #profile-container {
-    float: left;
-  }
-  #sidebar nav {
-    padding: 0%;
-    margin-top: 5px;
-  }
-  #container {
-    width: calc(100vw - 25px);
-  }
-  textarea {
-    width: calc(100vw - 95px);
+  select {
+    width: 89.5vw;
+    height: 12vw;
   }
 }
