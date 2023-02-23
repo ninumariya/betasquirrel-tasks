@@ -12,11 +12,13 @@
 
 ### Requirements and output
 
-| Requirements                                          | Output                                     |
-| ----------------------------------------------------- | ------------------------------------------ |
-| ![Task 1](images/requirement/task-1-requirements.jpg) | ![Task 1](images/output/task-1-output.png) |
-| ![Task 2](images/requirement/task-2-requirement.jpg)  | ![Task 2](images/output/task-2-output.png) |
-| ![Task 2](images/requirement/task-3-requirement.jpg)  | ![Task 2](images/output/task-3-output.png) |
+| Requirements                                              | Output                                          |
+| --------------------------------------------------------- | ----------------------------------------------- |
+| ![Task 1](images/requirement/task-1-requirements.jpg)     | ![Task 1](images/output/task-1-output.png)      |
+| ![Task 2](images/requirement/task-2-requirement.jpg)      | ![Task 2](images/output/task-2-output.png)      |
+| ![Task 3](images/requirement/task-3-requirement.jpg)      | ![Task 3](images/output/task-3-output.png)      |
+| ![Task 4-1](images/requirement/task-4-1-requirement.jpeg) | ![Task 4-1](images/output/task-4-1-output.png)  |
+| ![Task 4-2](images/requirement/task-4-2-requirement.jpeg) | ![Task 4-2](images/output/task-4-2-output.jpeg) |
 
 ### W3Schools learning tasks
 
@@ -99,3 +101,4 @@
 - Task-1 completed
 - Task-2 completed
 - Task-3 completed
+- Task-4 completed
