@@ -35,6 +35,9 @@ form .display {
   display: flex;
   justify-content: flex-end;
   margin: 20px 0;
+  box-shadow: -8px -8px 15px rgb(255, 255, 255, 0.1),
+    5px 5px 15px rgba(141, 133, 133, 0.2);
+  background-color: transparent;
 }
 form .display input {
   text-align: right;
@@ -44,4 +47,7 @@ form .display input {
 }
 form input.equal {
   width: 145px;
+}
+form input.operator {
+  color: rgb(7, 167, 100);
 }

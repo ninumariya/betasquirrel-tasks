@@ -4,24 +4,41 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Task-5</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet" />
-    <link href="assets/fontawesome/css/brands.css" rel="stylesheet" />
-    <link href="assets/fontawesome/css/solid.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
       <div class="calculator">
         <form>
           <div class="display">
-            <input type="text" name="displaybox" />
+            <input type="text" id="displaybox" />
           </div>
           <div>
-            <input type="button" value="AC" />
-            <input type="button" value="DE" />
-            <input type="button" value="." />
-            <input type="button" value="/" />
+            <input
+              type="button"
+              value="AC"
+              onclick="allclear()"
+              class="operator"
+            />
+            <input
+              type="button"
+              value="DE"
+              onclick="Delete()"
+              class="operator"
+            />
+            <input
+              type="button"
+              value="."
+              onclick="displayOnScreen(this.value)"
+              class="operator"
+            />
+            <input
+              type="button"
+              value="/"
+              onclick="displayOnScreen(this.value)"
+              class="operator"
+            />
           </div>
           <div>
             <input
@@ -29,26 +46,86 @@
               value="7"
               onclick="displayOnScreen(this.value)"
             />
-            <input type="button" value="8" />
-            <input type="button" value="9" />
-            <input type="button" value="*" />
+            <input
+              type="button"
+              value="8"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="9"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="*"
+              onclick="displayOnScreen(this.value)"
+              class="operator"
+            />
           </div>
           <div>
-            <input type="button" value="4" />
-            <input type="button" value="5" />
-            <input type="button" value="6" />
-            <input type="button" value="-" />
+            <input
+              type="button"
+              value="4"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="5"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="6"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="-"
+              onclick="displayOnScreen(this.value)"
+              class="operator"
+            />
           </div>
           <div>
-            <input type="button" value="1" />
-            <input type="button" value="2" />
-            <input type="button" value="3" />
-            <input type="button" value="+" />
+            <input
+              type="button"
+              value="1"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="2"
+              onclick="displayOnScreenthis.value)"
+            />
+            <input
+              type="button"
+              value="3"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="+"
+              onclick="displayOnScreen(this.value)"
+              class="operator"
+            />
           </div>
           <div>
-            <input type="button" value="00" />
-            <input type="button" value="0" />
-            <input type="button" value="=" class="equal" />
+            <input
+              type="button"
+              value="00"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="0"
+              onclick="displayOnScreen(this.value)"
+            />
+            <input
+              type="button"
+              value="="
+              onclick="calculate()"
+              class="equal operator"
+            />
           </div>
         </form>
       </div>
