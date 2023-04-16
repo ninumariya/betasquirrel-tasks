@@ -76,6 +76,7 @@ h4 {
 }
 .radio-button {
   display: flex;
+  margin-top: 5px;
 }
 red-text {
   color: red;
@@ -138,7 +139,8 @@ button {
 }
 .checkbox {
   width: 70%;
-  display: flex;
+  margin-top: 5px;
+  display: inline-block;
   justify-content: space-between;
 }
 @media screen and (max-width: 1200px) {

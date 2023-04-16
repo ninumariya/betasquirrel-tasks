@@ -10,6 +10,10 @@
 
 - [Live](https://ninumariya.github.io/betasquirrel-tasks/)
 
+### Figma Link
+
+- [Car wash online site](https://www.figma.com/proto/GnOwEyc8loCgH0Q9cCkvhr/Brillare-Car-Wash?node-id=1-13&scaling=min-zoom&page-id=0%3A1)
+
 ### Requirements and output
 
 | Requirements                                              | Output                                          |
