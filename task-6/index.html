@@ -19,13 +19,8 @@
       sizes="32x32"
       href="images/favicon-32x32.png"
     />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon-16x16.png"
-    />
-    <link rel="manifest" href="images/site.webmanifest" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
 
@@ -47,16 +42,22 @@
       <!-- Sidebar -->
       <div id="side-container">
         <ul>
-          <li><h4>STUDENTS</h4></li>
-          <li><h4>STAFF</h4></li>
-          <li><h4>EXAMS</h4></li>
+          <li class="flex">
+            <h4><img src="images/student.png" alt="student" /> STUDENTS</h4>
+          </li>
+          <li class="flex">
+            <h4><img src="images/staff.png" alt="student" />STAFF</h4>
+          </li>
+          <li class="flex">
+            <h4><img src="images/exam.png" alt="student" />EXAMS</h4>
+          </li>
         </ul>
       </div>
       <!-- Student Data -->
       <div id="main-container">
         <div class="main-header">
-          <span><h4 class="student-data">STUDENTS</h4></span
-          ><a href="student-reg.html">Add Student</a>
+          <h2>Students</h2>
+          <a href="student-reg.html" class="link-btn">Add Student</a>
         </div>
         <div class="student-table">
           <table>

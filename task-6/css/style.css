@@ -44,7 +44,7 @@ ul {
   padding-left: 8px;
 }
 #side-container {
-  width: 10%;
+  width: 15%;
   height: 100vh;
   border-right: 2px solid rgb(173, 169, 169);
   padding: 10px;
@@ -52,6 +52,10 @@ ul {
 }
 li {
   padding: 10px 0;
+}
+li img {
+  height: 25px;
+  margin-right: 15px;
 }
 h4,
 th {
@@ -97,6 +101,10 @@ table {
 }
 .student-table {
   padding: 0 25px;
+}
+.flex {
+  display: flex;
+  align-items: center;
 }
 /* Media Query for different Responsive Size */
 @media screen and (max-width: 1200px) {
