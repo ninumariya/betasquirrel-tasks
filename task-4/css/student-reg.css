@@ -78,7 +78,7 @@ h4 {
   display: flex;
   margin-top: 5px;
 }
-red-text {
+.red-text {
   color: red;
 }
 .first-name,
